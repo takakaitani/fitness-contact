@@ -1,0 +1,43 @@
+.header {
+   width: 1686px;
+   height: 270px;
+  }
+  
+  .header img{
+    width: 1686px;
+    height: 270px;
+    position: absolute;
+    top:0;
+    left:0;
+    z-index: 0;
+    opacity: 0.5;
+  }
+
+  .header-logo {
+    background-color: rgba(175, 35, 35, 0.5);
+    z-index: 1;
+    height: 90px;
+    width: 1686px;
+    position: absolute;
+    top: 90px;
+    left: 0;
+  }
+
+  .header-logo h1 {
+    color: rgb(255, 255, 255);
+    text-align: center;
+  }
+
+  .menu {
+    padding-top: 40px;
+  }
+
+  .text {
+    position: absolute;
+    top: 260px;
+    left: 20px;
+  }
+
+  .text h3, h4{
+    font-weight: lighter;
+  }
